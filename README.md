@@ -47,7 +47,7 @@ Ruleset
 The following paths are excluded from all checks:
 
 | Path                |
-|---------------------|
+| ------------------- |
 | `.github/`          |
 | `.phpunit.cache/`   |
 | `build/`            |
@@ -65,7 +65,7 @@ Enforces that each type (class, interface, trait, enum) is declared in a
 file whose name matches the type name, rooted at the configured namespaces:
 
 | Root path      | Namespace        |
-|----------------|------------------|
+| -------------- | ---------------- |
 | `src/Valkyrja` | `Valkyrja`       |
 | `tests/Tests`  | `Valkyrja\Tests` |
 
@@ -79,7 +79,7 @@ All referenced names must appear in `use` statements — fully qualified names
 are not permitted inline:
 
 | Property                                     | Value   | Effect                                                                  |
-|----------------------------------------------|---------|-------------------------------------------------------------------------|
+| -------------------------------------------- | ------- | ----------------------------------------------------------------------- |
 | `allowPartialUses`                           | `false` | Partial uses (e.g. `use Foo\Bar` referencing `Bar\Baz`) are not allowed |
 | `allowFullyQualifiedNameForCollidingClasses` | `false` | Colliding class names must be aliased, not referenced fully qualified   |
 | `searchAnnotations`                          | `true`  | Annotations in docblocks are also checked for unimported names          |
@@ -94,7 +94,7 @@ is designed to be called from other repositories via `workflow_call`.
 ### Inputs
 
 | Input              | Type    | Default                       | Description                                                                                                                                           |
-|--------------------|---------|-------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ------------------ | ------- | ----------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `paths`            | string  | —                             | **Required.** YAML filter spec with two keys: `ci` (CI config files that trigger a base-branch fetch) and `files` (all files that trigger the check). |
 | `post-pr-comment`  | boolean | `true`                        | Post a PR comment on failure and remove it on success. Disable when the calling workflow handles its own reporting.                                   |
 | `composer-options` | string  | `''`                          | Extra flags passed to every `composer install` step (e.g. `--ignore-platform-req=ext-openswoole`).                                                    |
@@ -147,9 +147,6 @@ Licensed under the [MIT license][MIT license url]. See
 [`LICENSE.md`](./LICENSE.md).
 
 [contributing url]: https://github.com/valkyrjaio/.github/blob/master/CONTRIBUTING.md
-
 [vocabulary url]: https://github.com/valkyrjaio/.github/blob/master/VOCABULARY.md
-
 [security vulnerabilities url]: https://github.com/valkyrjaio/.github/blob/master/SECURITY.md
-
 [MIT license url]: https://opensource.org/licenses/MIT
