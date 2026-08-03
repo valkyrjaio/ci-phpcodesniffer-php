@@ -1,5 +1,5 @@
 {
-  "name"              : "valkyrja/phpcodesniffer",
+  "name"              : "valkyrja/ci-phpcodesniffer",
   "type"              : "project",
   "description"       : "PHPCodeSniffer for the Valkyrja Project.",
   "homepage"          : "https://www.valkyrja.io/",

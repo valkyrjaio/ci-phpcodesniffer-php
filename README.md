@@ -9,9 +9,9 @@ and reusable workflow that enforce the project's file-naming and namespace
 conventions across consuming repositories.
 
 <p>
-    <a href="https://packagist.org/packages/valkyrja/phpcodesniffer"><img src="https://poser.pugx.org/valkyrja/phpcodesniffer/require/php" alt="PHP Version Require"></a>
-    <a href="https://packagist.org/packages/valkyrja/phpcodesniffer"><img src="https://poser.pugx.org/valkyrja/phpcodesniffer/v" alt="Latest Stable Version"></a>
-    <a href="https://packagist.org/packages/valkyrja/phpcodesniffer"><img src="https://poser.pugx.org/valkyrja/phpcodesniffer/license" alt="License"></a>
+    <a href="https://packagist.org/packages/valkyrja/ci-phpcodesniffer"><img src="https://poser.pugx.org/valkyrja/ci-phpcodesniffer/require/php" alt="PHP Version Require"></a>
+    <a href="https://packagist.org/packages/valkyrja/ci-phpcodesniffer"><img src="https://poser.pugx.org/valkyrja/ci-phpcodesniffer/v" alt="Latest Stable Version"></a>
+    <a href="https://packagist.org/packages/valkyrja/ci-phpcodesniffer"><img src="https://poser.pugx.org/valkyrja/ci-phpcodesniffer/license" alt="License"></a>
     <a href="https://github.com/valkyrjaio/ci-phpcodesniffer-php/actions/workflows/ci.yml?query=branch%3A26.x"><img src="https://github.com/valkyrjaio/ci-phpcodesniffer-php/actions/workflows/ci.yml/badge.svg?branch=26.x" alt="CI Status"></a>
     <a href="https://scrutinizer-ci.com/g/valkyrjaio/ci-phpcodesniffer-php/?branch=26.x"><img src="https://scrutinizer-ci.com/g/valkyrjaio/ci-phpcodesniffer-php/badges/quality-score.png?b=26.x" alt="Scrutinizer"></a>
     <a href="https://coveralls.io/github/valkyrjaio/ci-phpcodesniffer-php?branch=26.x"><img src="https://coveralls.io/repos/github/valkyrjaio/ci-phpcodesniffer-php/badge.svg?branch=26.x" alt="Coverage Status" /></a>
