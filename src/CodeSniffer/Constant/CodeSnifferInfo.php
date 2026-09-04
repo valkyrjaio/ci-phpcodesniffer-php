@@ -19,12 +19,12 @@ final class CodeSnifferInfo
      *
      * @var non-empty-string
      */
-    public const string VERSION = '26.3.29';
+    public const string VERSION = '26.3.30';
 
     /**
      * The CodeSniffer package version build datetime.
      *
      * @var non-empty-string
      */
-    public const string VERSION_BUILD_DATE_TIME = 'September 3 2026 07:50:28 MST';
+    public const string VERSION_BUILD_DATE_TIME = 'September 4 2026 07:40:51 MST';
 }
