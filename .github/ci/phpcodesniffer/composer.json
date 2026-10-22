@@ -1,6 +1,6 @@
 {
   "require"           : {
-    "php" : ">=8.4"
+    "php" : ">=8.4.27"
   },
   "require-dev"       : {
     "squizlabs/php_codesniffer" : "^4.0.4",
