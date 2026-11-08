@@ -1,6 +1,11 @@
 # Release Notes for 26.x
 
-## [Unreleased](https://github.com/valkyrjaio/phpcodesniffer/compare/v26.3.91...26.x)
+## [Unreleased](https://github.com/valkyrjaio/phpcodesniffer/compare/v26.3.92...26.x)
+
+## [v26.3.92](https://github.com/valkyrjaio/phpcodesniffer/compare/v26.3.91...v26.3.92) - 2026-11-08
+
+* [Dependency] build: Update composer dependencies by [@valkyrja-volundr](https://github.com/valkyrja-volundr)[bot] in https://github.com/valkyrjaio/ci-phpcodesniffer-php/pull/371
+* [Dependency] build: Update composer dependencies by [@valkyrja-volundr](https://github.com/valkyrja-volundr)[bot] in https://github.com/valkyrjaio/ci-phpcodesniffer-php/pull/372
 
 ## [v26.3.91](https://github.com/valkyrjaio/phpcodesniffer/compare/v26.3.90...v26.3.91) - 2026-11-07
 
