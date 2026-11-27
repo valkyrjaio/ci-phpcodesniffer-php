@@ -26,5 +26,5 @@ final class CodeSnifferInfo
      *
      * @var non-empty-string
      */
-    public const string VERSION_BUILD_DATE_TIME = 'November 26 2026 12:56:28 MST';
+    public const string VERSION_BUILD_DATE_TIME = 'November 27 2026 12:45:47 MST';
 }
